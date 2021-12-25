@@ -1,0 +1,71 @@
+/*---------------scrollbar---------------*/
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    transition:.6s ease;
+    border-radius: 5px;
+    background-color: lightgray;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb:hover{
+    transition:.6s ease;
+    background-color: white;
+}
+/*-------------------------------*/
+.has-error{
+    border: 1px solid red;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}
+.r{
+    color: red;
+    font-size: 15px;
+}
+.clabeltext{
+    color: seashell;
+}
+
+img{
+    padding-top: 19px;
+    /* height: 12em;
+    width: 17.5em; */
+    height: 10em;
+    width: 14em;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.serviceCard{
+    background-color: lightgray;
+    transition:.6s ease;
+    margin-top: 30px;
+    color: #077ee6;
+}
+.serviceCard:hover{
+    transition:.6s ease;
+    background-color: #077ee6;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.experienceCard{
+    transition:.6s ease;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: darkgray;
+}
+.experienceCard:hover{
+    transition:.6s ease;
+    background-color: #077ee6;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
