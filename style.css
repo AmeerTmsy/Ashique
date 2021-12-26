@@ -3,7 +3,6 @@
 ::-webkit-scrollbar{
     width: 10px;
 }
-
 ::-webkit-scrollbar-thumb{
     transition:.6s ease;
     border-radius: 5px;
@@ -29,7 +28,6 @@
 .clabeltext{
     color: seashell;
 }
-
 img{
     padding-top: 19px;
     /* height: 12em;
